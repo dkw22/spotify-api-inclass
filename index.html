@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIW Poster Project</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- Container for MIW Posters -->
+    <div class="container">
+        <button onClick="stopSnippet()">Stop Song</button> <!--Add event listener-->
+        <div class="gallery"> <!--Add event listeners for all figures-->
+            <figure class="gallery_item gallery__item--1" id="fig1" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwcreatures.png" alt="Another Life Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--2" id="fig2" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwchriswoman.png" alt="Voices Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--3" id="fig3" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwfreddie.png" alt="Somebody Told Me Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--4" id="fig4" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwposter.png" alt="Disguise Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--5" id="fig5" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwep.png" alt="Holding On To Smoke Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--6" id="fig6" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwlogo.png" alt="Soft Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--7" id="fig7" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwspiral.png" alt="Headache Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--8" id="fig8" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/miwmiddlefinger.png" alt="Catharsis Motionless In White">
+            </figure>
+            <figure class="gallery_item gallery__item--9" id="fig9" onClick="event.stopPropagation(); getSong(this.id, event)">
+                <img class="gallery__img" src="images/chrisnyd.png" alt="Legacy Motionless In White">
+            </figure>
+        </div>
+    </div>
+</body>
+</html>
